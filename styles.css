@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+background-color: #ffe8c6;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+font-size: 32px;
+}
+h1{
+    color:rgb(207, 156, 255);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+#username{
+    max-width: 50%;
+}
+#email{
+    max-width: 50%;
+}
+#password{
+    max-width: 50%;
+}
+#confirmation{
+    max-width: 50%;
+}
+.msg{
+    font-size: 16px;
+    display: none;
+}
